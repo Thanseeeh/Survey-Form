@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Survey-Form</title>
-  <link rel="stylesheet" href="survey_form.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1 id="title">Favorite WorldCup Team</h1>
@@ -13,12 +13,12 @@
       <input id="name" type="text" required placeholder="Enter your name"></input>
     </fieldset>
     <fieldset for="email"><label id="email-label">Email</label>
-      <input id="email" type="text" required placeholder="Enter your Email"></input>
+      <input id="email" type="email" required placeholder="Enter your Email"></input>
     </fieldset>
-    <fieldset for="number"><label="number-label">Age</label>
+    <fieldset for="number"><label id="number-label">Age</label>
       <input id="number" type="number" required placeholder="Age"></input>
     </fieldset>
-    <fieldset for="dropdown"><label id="dropdown">Which is your Favorite Team</label>
+    <fieldset for="dropdown"><label id="dropdown1">Which is your Favorite Team</label>
       <select id="dropdown">
         <option>Select one team</option>
         <option>SENEGAL</option>
@@ -56,10 +56,10 @@
       </select>
     </fieldset>
     <fieldset><label>Would you share this Survey-form to your friends?</label><br>
-        <label>Yes<input type="radio" name="choose-one" id="radio"></input></label><br>
-        <label>No<input type="radio" name="choose-one" id="radio"></input></label>
+        <label>Yes<input type="radio" name="choose-one" id="radio" value="yes"></input></label><br>
+        <label>No<input type="radio" name="choose-one" id="radio" value="no"></input></label>
       </fieldset>
-      <fieldset for="dropdown2"><label id="dropdown2">Which is your Favorite playing Position</label>
+      <fieldset for="dropdown2"><label id="dropdown-2">Which is your Favorite playing Position</label>
         <select id="dropdown2">
           <option>Position</option>
           <option>KEEPER</option>
@@ -67,6 +67,40 @@
           <option>MID-FIELDER</option>
           <option>STRIKER</option>
         </select>
+      </fieldset>
+      <fieldset><label>Who are the favourites to win the 2022 World Cup?<br>(predict Teams:)</label><br>
+        <input type="checkbox" value="predict"><label>Senegal</label></input><br>
+        <input type="checkbox" value="predict"><label>Qatar</label></input><br>
+        <input type="checkbox" value="predict"><label>Netherlands</label></input><br>
+        <input type="checkbox" value="predict"><label>Equador</label></input><br>
+        <input type="checkbox" value="predict"><label>England</label></input><br>
+        <input type="checkbox" value="predict"><label>Wales</label></input><br>
+        <input type="checkbox" value="predict"><label>United States</label></input><br>
+        <input type="checkbox" value="predict"><label>Iran</label></input><br>
+        <input type="checkbox" value="predict"><label>Argentina</label></input><br>
+        <input type="checkbox" value="predict"><label>Poland</label></input><br>
+        <input type="checkbox" value="predict"><label>Mexico</label></input><br>
+        <input type="checkbox" value="predict"><label>Saudi Arabia</label></input><br>
+        <input type="checkbox" value="predict"><label>France</label></input><br>
+        <input type="checkbox" value="predict"><label>Denmark</label></input><br>
+        <input type="checkbox" value="predict"><label>Australia</label></input><br>
+        <input type="checkbox" value="predict"><label>Tunisia</label></input><br>
+        <input type="checkbox" value="predict"><label>Spain</label></input><br>
+        <input type="checkbox" value="predict"><label>Costa Rica</label></input><br>
+        <input type="checkbox" value="predict"><label>Germany</label></input><br>
+        <input type="checkbox" value="predict"><label>Japan</label></input><br>
+        <input type="checkbox" value="predict"><label>Belgiam</label></input><br>
+        <input type="checkbox" value="predict"><label>Canada</label></input><br>
+        <input type="checkbox" value="predict"><label>Morocco</label></input><br>
+        <input type="checkbox" value="predict"><label>Croatia</label></input><br>
+        <input type="checkbox" value="predict"><label>Brazil</label></input><br>
+        <input type="checkbox" value="predict"><label>Switzerland</label></input><br>
+        <input type="checkbox" value="predict"><label>Cameroon</label></input><br>
+        <input type="checkbox" value="predict"><label>Serbia</label></input><br>
+        <input type="checkbox" value="predict"><label>Uruguay</label></input><br>
+        <input type="checkbox" value="predict"><label>Portugal</label></input><br>
+        <input type="checkbox" value="predict"><label>South Corea</label></input><br>
+        <input type="checkbox" value="predict"><label>Ghana</label></input><br>
       </fieldset>
   </form>
 </body>
