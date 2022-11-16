@@ -1,0 +1,20 @@
+body{
+    padding-right: 250px;
+}
+h1 {
+    margin-left: 500px;
+    font-family: system-ui;
+    font-size: 28px;
+}
+p {
+    font-size: 17px;
+    margin-left: 430px;
+    font-style: italic;
+    margin-top: -13px;
+}
+form{
+    margin-left: 300px;
+}
+fieldset{
+    border: none;
+}
