@@ -26,6 +26,7 @@ form {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 30px;
 }
 fieldset {
     border: none;
@@ -261,4 +262,19 @@ select {
     margin-left: -825px;
     margin-top: 20px;
     height: 20px;
+}
+.description-label {
+    margin-left: -415px;
+}
+.text-description {
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 700px;
+}
+.submit-btn {
+    width: 710px;
+    height: 50px;
+    background: #00cd00;
+    font-size: 20px;
+    font-weight: bold;
 }
