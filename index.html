@@ -9,16 +9,16 @@
   <h1 id="title">Favorite WorldCup Team</h1>
   <p id="description">Thank you for taking time to participate in this WorldCup survey</p>
   <form id="survey-form">
-    <fieldset for="name"><label id="name-label">Name</label>
+    <fieldset for="name"><label id="name-label" class="name-label">Name</label><br>
       <input id="name" type="text" required placeholder="Enter your name"></input>
     </fieldset>
-    <fieldset for="email"><label id="email-label">Email</label>
+    <fieldset for="email"><label id="email-label" class="email-label">Email</label><br>
       <input id="email" type="email" required placeholder="Enter your Email"></input>
     </fieldset>
-    <fieldset for="number"><label id="number-label">Age</label>
+    <fieldset for="number"><label id="number-label" class="number-label">Age</label><br>
       <input id="number" type="number" required placeholder="Age"></input>
     </fieldset>
-    <fieldset for="dropdown"><label id="dropdown1">Which is your Favorite Team</label>
+    <fieldset for="dropdown"><label id="dropdown1" class="dropdown1">Which is your Favorite Team</label><br>
       <select id="dropdown">
         <option>Select one team</option>
         <option>SENEGAL</option>
@@ -55,11 +55,11 @@
         <option>GHANA</option>
       </select>
     </fieldset>
-    <fieldset><label>Would you share this Survey-form to your friends?</label><br>
-        <label>Yes<input type="radio" name="choose-one" id="radio" value="yes"></input></label><br>
-        <label>No<input type="radio" name="choose-one" id="radio" value="no"></input></label>
+    <fieldset><label class="share-label">Would you share this Survey-form to your friends?</label><br>
+        <label class="yes">Yes<input type="radio" name="choose-one" id="radio" class="radio" value="yes" ></input></label>
+        <label class="no">No<input type="radio" name="choose-one" id="radio" class="radio" value="no"></input></label>
       </fieldset>
-      <fieldset for="dropdown2"><label id="dropdown-2">Which is your Favorite playing Position</label>
+      <fieldset for="dropdown2"><label id="dropdown-2" class="dropdown-2">Which is your Favorite playing Position</label><br>
         <select id="dropdown2">
           <option>Position</option>
           <option>KEEPER</option>
